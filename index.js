@@ -38,7 +38,7 @@ module.exports = {
     trees.push(new Webpack([
       path.dirname(firebase)
     ], {
-      entry: './firebase-browser.js',
+      entry: './index.js',
       output: {
         library: 'firebase',
         libraryTarget: 'amd',
